@@ -8,7 +8,7 @@ function App() {
   };
 
   return (
-    <div class="colour-picker">
+    <div className="colour-picker">
       Colour:
       <input 
         type="text" 
@@ -16,7 +16,7 @@ function App() {
         onChange={handleInputChange} 
         style={{ marginRight: '20px' }} 
       />
-      <div class="swatch" style={{ backgroundColor: color }}></div>
+      <div className="swatch" style={{ backgroundColor: color }}></div>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { App } from './../src/App';
+import App from './App';
 
-it('Renders Colour label (arguably not a very useful test :D)', () => {
+test('Renders Colour label (arguably not a very useful test :D)', () => {
   render(<App />);
-  expect(screen.getByText('Colour')).toBeInTheDocument();
+  expect(screen.getByText('Colour:')).toBeInTheDocument();
 });

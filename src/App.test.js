@@ -1,8 +1,8 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { App } from './../src/App';
 
-test('renders learn react link', () => {
+it('Renders Colour label (arguably not a very useful test :D)', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByText('Colour')).toBeInTheDocument();
 });

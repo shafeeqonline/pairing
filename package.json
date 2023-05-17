@@ -1,6 +1,7 @@
 {
   "name": "pairing",
   "version": "0.1.0",
+  "author": "Tom Godber (though honestly do I really want my name attached to this beautiful code :P)",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -20,7 +20,6 @@ export const darkBlue = '#3B3483',
 const countryColours = {
             'Australia': [darkBlue, darkRed, white],
             'Austria': [brightRed, white],
-            'Austria': [darkRed, lightGreen, white],
             'Brazil': [darkGreen, yellow, darkBlue],
             'Canada': [brightRed, white],
             'China': [brightRed, darkYellow],

@@ -1,4 +1,4 @@
-# Infinity pairing interview
+# Color pairing round
 
 ## Available Scripts
 

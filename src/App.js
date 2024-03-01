@@ -1,24 +1,16 @@
-import React, { useState } from 'react';
+import $ from 'jquery';
 
-function App() {
-  const [color, setColor] = useState('#ffffff');
 
-  const handleInputChange = (event) => {
-    setColor(event.target.value);
-  };
 
-  return (
-    <div className="colour-picker">
-      Colour:
-      <input 
-        type="text" 
-        placeholder="#webhex" 
-        onChange={handleInputChange} 
-        style={{ marginRight: '20px' }} 
-      />
-      <div className="swatch" style={{ backgroundColor: color }}></div>
-    </div>
-  );
-}
+const App = () => (
+  <></>
+)
 
-export default App;
+$(document).ready(function () {
+  $('.colour-picker input').on('input', function () {
+    var color = $(this).val();
+    $('.swatch').css('background-color', color);
+  });
+})
+
+export default App
